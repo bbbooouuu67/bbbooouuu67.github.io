@@ -1,0 +1,25 @@
+:root{--bg:#fffaf3;--text:#3a2f28;--muted:#7a6a5e;--accent:#b5653b;--line:#eadfd2;--note:#fff1dd}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;line-height:1.9;font-size:17px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+a{color:var(--accent)}
+.site-header{border-bottom:1px solid var(--line);background:#fff;padding:14px 0}
+.site-title{font-weight:bold;font-size:1.25rem;text-decoration:none;color:var(--text)}
+.site-header nav{margin-top:6px;font-size:.85rem;display:flex;flex-wrap:wrap;gap:4px 16px}
+main{padding:24px 16px 48px}
+.post h1{font-size:1.6rem;line-height:1.5}
+.post h2{font-size:1.3rem;border-left:5px solid var(--accent);padding-left:10px;margin-top:2.2em}
+.post h3{font-size:1.1rem;margin-top:1.8em}
+.post img{max-width:100%;height:auto;border-radius:8px}
+.meta,.date{color:var(--muted);font-size:.85rem}
+.pr-notice{background:var(--note);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:.85rem}
+.pr-notice strong{background:var(--accent);color:#fff;padding:1px 7px;border-radius:4px;margin-right:6px}
+.post-list{list-style:none;padding:0}
+.post-list li{padding:16px 0;border-bottom:1px solid var(--line)}
+.post-list a{font-weight:bold;font-size:1.1rem}
+.post-list .date{display:block}
+.post-list p{margin:4px 0 0;color:var(--muted);font-size:.9rem}
+.product{border:1px solid var(--line);background:#fff;border-radius:8px;padding:12px 14px;margin:1.5em 0}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 10px}
+.site-footer{border-top:1px solid var(--line);font-size:.8rem;color:var(--muted);padding:20px 0}

@@ -1,0 +1,20 @@
+---
+layout: default
+title: 記事一覧
+---
+<section class="intro">
+  <p>{{ site.description }}</p>
+</section>
+{% if site.posts.size == 0 %}
+  <p>まだ記事がありません。もうすぐ1本目を公開します。</p>
+{% else %}
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: '%Y年%-m月%-d日' }}</span>
+    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

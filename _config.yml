@@ -1,0 +1,19 @@
+# サイトの基本設定（藤村さんが書き換えてOKな所には ★ をつけています）
+title: "ペキニーズとごはん日記"        # ★ サイト名
+description: "ドライフードを食べないペキニーズと暮らす飼い主が、ごはん・おやつ・グッズを正直に記録するブログ。"  # ★ サイトの説明
+author: "藤村"                         # ★ 表示する運営者名（ニックネームでもOK）
+lang: ja
+timezone: Asia/Tokyo
+url: "https://bbbooouuu67.github.io"      # ★ 公開後に https://ユーザー名.github.io を入れる
+baseurl: ""    # ★ リポジトリ名を username.github.io 以外にした場合は "/リポジトリ名"
+
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - 記事の書き方.md
