@@ -23,3 +23,4 @@ main{padding:24px 16px 48px}
 table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}
 th,td{border:1px solid var(--line);padding:6px 10px}
 .site-footer{border-top:1px solid var(--line);font-size:.8rem;color:var(--muted);padding:20px 0}
+.hero,.photo{display:block;width:100%;max-width:280px;height:auto;margin:8px auto 16px;border-radius:12px}
