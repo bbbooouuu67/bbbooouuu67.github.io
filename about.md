@@ -18,6 +18,14 @@ permalink: /about/
 
 [noteを見る](https://note.com/bbbooouuu67)
 
+## テンの動画はSNSで
+
+毎日のテンの様子を、短い動画でのせています。
+
+- Instagram：[@tanukichi_tenten](https://www.instagram.com/tanukichi_tenten/)
+- TikTok：[@ten.ten123](https://www.tiktok.com/@ten.ten123)
+- YouTube：[@tanukichi_tenten1362](https://www.youtube.com/@tanukichi_tenten1362)
+
 ## お問い合わせ
 
 メール：bbbooouuu67@gmail.com
